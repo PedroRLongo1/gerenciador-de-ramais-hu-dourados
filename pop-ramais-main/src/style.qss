@@ -1,0 +1,109 @@
+Project{
+    background-color: #0F3B3B;
+}
+
+/* Widgets */
+#widgetpanelUp {
+    background-color: #005F5F;
+}
+#widgetPanelDown {
+    width: 100px; height: 100px;
+    background-color: #005F5F;
+}
+#widgetPanel {
+    background-color: #008181;
+}
+#widgetPanelDownSubDiv{
+    background-color:#008181;
+}
+
+/* buttons */
+#buttonSwitchMode {
+    background-color: #00E7E7;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#buttonSwitchMode:hover {
+    background-color: #00A3A3;
+    color: #000000;
+}
+
+/* labels */
+#labelSearchTextArea {
+    background-color: #0F3B3B;
+    color: white;
+    border: 1px solid white;
+}
+#labelEditTextArea {
+    color: white ;
+}
+#labelConvertTextArea {
+    background-color: #0F3B3B;
+    color: white;
+    border: 1px solid white;
+}
+#labelPanelOption {
+    background-color: #00E7E7;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#title_modes{
+    background-color: transparent;
+    color: white;
+    font-size: 20px
+}
+#subtitle_modes{
+    background-color: transparent;
+    color: white;
+}
+
+/* table */
+#table {
+    background-color: #00E7E7;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#table::item {
+    padding: 1px;
+    border-bottom: 1px solid black;
+    border-right: 1px dashed black;
+}
+#table::item:selected {
+    background-color: #00C5C5;
+    color: black;
+    border: 1px solid black;
+}
+
+/* bases */
+#componentBase {
+    background-color: #008181;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#componentBase:hover {
+    background-color: #00A3A3;
+    color: white;
+}
+#buttonBase {
+    background-color: #00C5C5;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#buttonBase:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+#inputBase {
+        background-color: #00C5C5;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+#inputBase:hover {
+    background-color: #00A3A3;
+    color: whitesmoke;
+}
